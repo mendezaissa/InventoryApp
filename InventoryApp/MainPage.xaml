@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="InventoryApp.MainPage"
+             BackgroundColor="Purple">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Place new controls here -->
+
+            <Label Text="Inventory App" FontSize="Large" TextColor="Black" HorizontalOptions="Center" Margin="0,30,0,0"></Label>
+
+            <Button Text="View Inventory"
+                    Margin="59,50,59,0"
+                    Font="Large"
+                    Clicked="InventoryButton_Clicked"></Button>
+
+            <Button Text="Add to Inventory"
+                    Margin="59,20,59,0"
+                    Font="Large"
+                    Clicked="AddInventoryButton_Clicked"></Button>
+
+            <Button Text="Edit Inventory"
+                    Margin="59,20,59,0"
+                    Font="Large"
+                    Clicked="EditInventoryButton_Clicked"></Button>
+
+            <Button Text="Delete Product"
+                    Margin="59,20,59,0"
+                    Font="Large"
+                    Clicked="DeleteButton_Clicked"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
